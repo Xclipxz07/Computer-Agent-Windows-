@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+temp_voice*.mp3
+temp_voice.mp3
+.venv/
+app_cache.json
+assistant_data.json
+notes/
