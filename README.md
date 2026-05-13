@@ -1,4 +1,5 @@
 # Computer Agent - The Siri/Cortana Replacement for Windows
+<img width="1920" height="1200" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/ca660fbf-bb48-4344-b96b-7f71e658ce02" />
 
 Computer Agent is a high-performance, voice-activated AI assistant for Windows, designed to be a private and customizable replacement for Siri or Cortana. It is powered by **Ollama**, allowing you to run powerful LLMs locally on your machine for maximum privacy and speed.
 
@@ -19,6 +20,7 @@ Computer Agent is a high-performance, voice-activated AI assistant for Windows, 
 *   **Privacy First:** Everything runs locally on your machine. No voice data or queries are sent to the cloud (except for explicit Google searches).
 
 ## 🛠️ How It Works
+<img width="1920" height="1200" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/a3769da5-d3fe-403f-95fc-0301bda638eb" />
 
 1.  **Wake Word Detection:** The agent listens for "Computer" or "Claire" using a highly sensitive background listener.
 2.  **Siri-Style UI:** Upon activation, a sleek, translucent overlay appears on your screen, indicating that it's listening.
