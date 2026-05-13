@@ -1,3 +1,56 @@
+# Computer Agent - The Siri/Cortana Replacement for Windows
+
+Computer Agent is a high-performance, voice-activated AI assistant for Windows, designed to be a private and customizable replacement for Siri or Cortana. It is powered by **Ollama**, allowing you to run powerful LLMs locally on your machine for maximum privacy and speed.
+
+## 🚀 Key Features
+
+*   **Local AI Power:** Integrated with **Ollama**. Choose any model (Llama3, Phi3, Mistral, SmolLM, etc.) to drive your assistant's intelligence.
+*   **System Control:** Control your PC using just your voice:
+    *   Change volume and brightness.
+    *   Toggle Wi-Fi and Bluetooth.
+    *   Open and close applications.
+    *   Lock your screen.
+*   **Productivity Tools:** 
+    *   Set alarms, timers, and reminders.
+    *   Take notes and create grocery lists.
+    *   Take screenshots instantly.
+    *   Perform calculations and web searches.
+*   **Advanced Voice Engine:** Optimized for distance and sensitivity, allowing you to trigger the agent with the wake word **"Computer"** from across the room.
+*   **Privacy First:** Everything runs locally on your machine. No voice data or queries are sent to the cloud (except for explicit Google searches).
+
+## 🛠️ How It Works
+
+1.  **Wake Word Detection:** The agent listens for "Computer" or "Claire" using a highly sensitive background listener.
+2.  **Siri-Style UI:** Upon activation, a sleek, translucent overlay appears on your screen, indicating that it's listening.
+3.  **Intelligent Routing:**
+    *   **System Commands:** If you ask to "open Chrome" or "set volume to 50", the agent executes the system command directly.
+    *   **Advanced Reasoning:** For complex questions or general chat, the agent routes the query to your local **Ollama** model.
+    *   **Web Search:** If the query requires real-time info, it can perform a Google search and present the results.
+
+## ⚙️ Configuration (Ollama Models)
+
+You can easily change which local model the agent uses. See the [README.md](./README.md) file for detailed instructions on model selection and priority.
+
+## 📦 Installation
+
+1.  **Prerequisites:** 
+    *   Install [Ollama](https://ollama.com/).
+    *   Install Python 3.10+.
+2.  **Setup:**
+    *   Clone this repository.
+    *   Run `setup_agent.bat` to install all dependencies.
+3.  **Run:**
+    *   Start the assistant using `start_computer_agent.bat`.
+
+## ⌨️ Shortcuts
+*   **Wake Word:** "Computer" or "Claire"
+*   **Manual Trigger:** `Ctrl + Shift + C`
+*   **Stop/End Conversation:** "Stop", "Goodbye", or "That's all"
+
+---
+*Created by Prabhat ##Apex Innovation*
+
+
 # Computer Agent - Ollama Configuration Guide
 
 This document explains how to manage and change the local AI model used by the Computer Agent.
